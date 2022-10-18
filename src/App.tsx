@@ -11,7 +11,7 @@ function App() {
         files={files}
         onupdatefiles={(f: any) => setFiles(f)}
         allowMultiple={true}
-        maxFiles={3}
+        instantUpload={false}
         server='/api'
         name='files'
         labelIdle='Drag & Drop your files or <span class="filepond--label-action">Browse</span>'
